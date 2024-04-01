@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, rgba(230, 176, 112, 0.8), rgba(115, 73, 53, 0.8)), url('fundo.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 70px 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.041);
+    border-radius: 30px;
+    color: #fff; /* Adicionado para tornar o texto branco */
+}
+
+footer {
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
